@@ -1,6 +1,6 @@
 
 header{
-    background: linear-gradient(rgba(148, 201, 170, 0.5), #2565b9),  url(New folder/medium-shot-people-praying-together.jpg);
+    background: linear-gradient(rgba(148, 201, 170, 0.5), #2565b9),  url(images/people.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     background-attachment: fixed;
@@ -19,7 +19,13 @@ header{
     width: 100vw;
     position: absolute;
     top: 200px;
-    bottom: 50px;
+    bottom: 100px;
     text-align: center;
- 
+    padding-bottom: 5rem;
 } 
+
+.vision h1 {
+  font-size: 7vmin;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 20px;
+}
