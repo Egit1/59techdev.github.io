@@ -1,0 +1,25 @@
+
+header{
+    background: linear-gradient(rgba(148, 201, 170, 0.5), #2565b9),  url(images/medium-shot-people-praying-together.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 800px;
+    color: rgb(0, 0, 0);
+    
+}
+
+
+  .vision {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    position: absolute;
+    top: 200px;
+    bottom: 50px;
+    text-align: center;
+ 
+} 
