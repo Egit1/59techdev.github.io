@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+div.current img {
+    width: 100vw;
+}
+div.experience {
+    width: 100vw;
+    height: fit-content;
+    background-color: rgb(56, 56, 100);
+    padding: 100px 20px;
+    color: white;
+
+}
+.experience h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+div.experience h1,p{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.experience i {
+    font-size: 25px;
+    color: orange;
+}
+.ways p {
+    color: rgb(136, 134, 134);
+    text-align: left;
+}
+.ways a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+div.values {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 30px;
+}
+
+div.values h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+h4 {
+    font-weight: bold;
+}
+.values img {
+    width: 100px;
+    height: 100px;
+}
+.values p {
+    font-size: 15px;
+}
+
+div.links {
+    display: flex;
+    gap:15px;
+    margin-right: 10rem;
+}
+.links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+.links a:hover {
+    color: rgb(14, 115, 155)
+}
+
+
+div.sermons {
+    background-color:rgb(56, 56, 100);
+    padding: 40px 60px;
+    width: 100%;
+    display: flex;
+    color: white;
+}
+
+.columns {
+    flex: 50%;
+    padding: 10px;
+}
+
+.upcoming, .latest-sermons {
+    display: block;
+}
+.sermons p {
+    text-align: left;
+}
+.sermons h2 {
+    text-transform: uppercase;
+}
+div.dates {
+    display: flex;
+    gap: 15px
+}
+td,th {
+    padding: 30px;
+}
+th {
+    font-size: 20pt;
+}
+hr {
+    width: 450px;
+}
+
+@media(max-width: 992px) {
+   
+}
+
+@media(max-width: 590px) {
+  
+}
+@media(max-width: 500px) {
+  
+
+div.links {
+    display: none;
+}
+.user {
+    display: none;
+}
+ .sermons {
+     display: block;
+ }
+ .columns {
+     display: block;
+ }
+}
